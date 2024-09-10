@@ -4,29 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form 📄</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1> Personal data form </h1>
+    <h1 id="title"> Personal data form </h1>
     <div id="formulario">
 
         <div id="nombres">
-            <b> <label for="name"> Name: </label> </b> <input>
-            <b> <label for="name"> Last name: </label> </b> <input>
+            <b> <label id="label"> Name: </label> </b> <input id="name">
+            <b> <label id="label"> Last name: </label> </b> <input id="lastName">
         </div>
 
         <div><p></p></div>
 
-        <div>
-            <b> <label for="name"> Age: </label> </b> <input>
-            <b> <label for="name"> Marital status: </label> </b> <input>
+        <div id="ages">
+            <b> <label id="label"> Age: </label> </b> <input id="age">
+            <b> <label id="label"> Marital status: </label> </b> <input id="maritalStatus">
         </div>
 
         <div><p></p></div>
 
-        <div>
-            <b> <label for="name"> Address: </label> </b> <input>
-            <b> <label for="name"> Zip Code: </label> </b> <input>
+        <div id="codes">
+            <b> <label id="label"> Address: </label> </b> <input id="address">
+            <b> <label id="label"> Zip Code: </label> </b> <input id="zip">
         </div>
+
+        <p></p>
+
+        <button id="button1" class="button"> Save </button> <button id="button2" class="button"> Clear </button>
 
     </div>
     
