@@ -9,34 +9,54 @@
 </head>
 <body>
     <h1 id="title"> Personal data form </h1>
-    <div id="formulario">
 
-        <div id="nombres">
-            <b> <label id="label"> Name: </label> </b> <input id="name">
-            <b> <label id="label"> Last name: </label> </b> <input id="lastName">
-        </div>
+    <div class="flex-comtainer">
+        <div id="formulario">
 
-        <div><p></p></div>
-
-        <div id="ages">
-            <b> <label id="label"> Age: </label> </b> <input id="age">
-            <b> <label id="label"> Marital status: </label> </b> <input id="maritalStatus">
-        </div>
-
-        <div><p></p></div>
-
-        <div id="codes">
-            <b> <label id="label"> Address: </label> </b> <input id="address">
-            <b> <label id="label"> Zip Code: </label> </b> <input id="zip">
-        </div>
-
-        <p></p>
-
-        <button id="button1" class="button"> Save </button> <button id="button2" class="button"> Clear </button>
-
-    </div>
+            <div id="nombres">
+                <b> <label class="label"> Name: </label> </b> <input type="text" id="name">
+                <b> <label class="label"> Last name: </label> </b> <input type="text" id="lastName">
+            </div>
     
+            <div><p></p></div>
+    
+            <div id="ages">
+                <b> <label class="label"> Age: </label> </b> <input type="text" id="age">
+                <b> <label class="label"> Marital status: </label> </b> <input type="text" id="maritalStatus">
+            </div>
+    
+            <div><p></p></div>
+    
+            <div id="codes">
+                <b> <label class="label"> Address: </label> </b>  <input type="text" id="address">
+                <b> <label class="label"> Zip Code: </label> </b> <input type="text" id="zip">
+            </div>
+    
+            <p></p>
+    
+            <button id="buttonSave" class="button"> Save </button> <button id="buttonClear" class="button"> Clear </button>
+    
+        </div>
 
+        <div class="logo-container">
+
+            <div>
+                <img class="ts" src="./img/ts.png" alt="">
+            </div>
+    
+            <div>
+                <img id="img" src="./img/css.png" alt="">
+            </div>
+    
+            <div>
+                <img id="img" src="./img/html.png" alt="">
+            </div>
+
+        </div>
+
+     </div>
+    
+    <script src="./main.js"></script>
 
 </body>
 </html>
