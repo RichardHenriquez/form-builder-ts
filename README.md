@@ -4,9 +4,9 @@ Tecnologías💻
 
 - HTML5
 - CSS3
-- JavaScript
+- Typescript
 
-*Uso* 📊
+Uso📊
 
 1. Clona el repo
 2. Abre `index.html` en tu navegador
