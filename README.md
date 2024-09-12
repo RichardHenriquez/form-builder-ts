@@ -1,14 +1,17 @@
-#Formulario básico para recopilar información del usuario. 🤖
+*Simple Web Form 📝*
 
-Tecnologías💻
+A basic form to collect user information. 🤖
+
+*Technologies 💻*
 
 - HTML5
 - CSS3
-- Typescript
+- TypeScript
 
-Uso📊
+*Usage 📊*
 
-1. Clona el repo
-2. Abre `index.html` en tu navegador
-3. Rellena y envía el formulario
+1. Clone the repo
+2. Open `index.html` in your browser
+3. Fill and submit the form
+
 
